@@ -3,18 +3,29 @@ import java.util.Scanner;
 public class allpurpose {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        System.out.println("Enter an integer: 👇");
-        int integerInput = inp.nextInt();
+        // System.out.println("Enter an integer: 👇");
+        // int integerInput = inp.nextInt();
 //        the return number is stored here.
-        int checkNumberVar = convertNumber(integerInput);
-        System.out.println("Number converted from " + integerInput + " to " + checkNumberVar);
+        // int checkNumberVar = convertNumber(integerInput);
+        // System.out.println("Number converted from " + integerInput + " to " + checkNumberVar);
 //      extra functions
 //      calling digit cout function
-        System.out.println("total digits are:-- " + countDigit(integerInput));
-        System.out.println("Total number of odds are:--- " + oddFinder(integerInput));
-        System.out.println("Total count of digits is:--- " + CountTotal(integerInput));
+        // System.out.println("total digits are:-- " + countDigit(integerInput));
+        // System.out.println("Total number of odds are:--- " + oddFinder(integerInput));
+        // System.out.println("Total count of digits is:--- " + CountTotal(integerInput));
+
+// secondary functions
+
+// ========================================================================================
+
 //        handshakes hello = new handshakes();
 //        System.out.println(hello.count_Handshakes());
+        //  bittodecimal obj = new bittodecimal();
+        //  obj.bitToDec("1100");
+         bittodecimal.bitToDec("1111111");
+
+
+
 
     }
 

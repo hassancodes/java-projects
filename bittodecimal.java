@@ -1,15 +1,15 @@
 public class bittodecimal{
-    public static char[] bitToDec(String bits){
+    public static void bitToDec(String bits){
 
-        char[] arr = new int[bits.length()];
+        int decimal=0;
 
-        for(int i =0; i<bits.length();i++){
-            arr[i] = bits.charAt(i);
-
+        for(int i =0; i<bits.length(); ++i){
+             int a = Integer.parseInt(String.valueOf(bits.charAt(i)));
+            decimal += a  *  (int)Math.pow(2,bits.length()-(i+1));
+            
         }
+        System.out.println(decimal);
 
     }
-
-  return arr.toString();
 
 }
