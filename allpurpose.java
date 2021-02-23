@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class allpurpose {
     public static void main(String[] args) {
 
-        Scanner inp = new Scanner(System.in);
-        threeprob thrpro = new threeprob();
-        System.out.println("Enter an integer: 👇");
-        int integerInput = inp.nextInt();
+        // Scanner inp = new Scanner(System.in);
+        // threeprob thrpro = new threeprob();
+        // System.out.println("Enter an integer: 👇");
+        // int integerInput = inp.nextInt();
 
-        int checkNumberVar = thrpro.convertNumber(integerInput);
-        System.out.println("Number is " +  checkNumberVar);
+        // int checkNumberVar = thrpro.convertNumber(integerInput);
+        // System.out.println("Number is " +  checkNumberVar);
 
         
-        System.out.println("Total Number of digits " + thrpro.countDigit(checkNumberVar));
-        System.out.println("Total Number of odd digits "+thrpro.oddFinder(checkNumberVar));
-        System.out.println("Total count " + thrpro.CountTotal(checkNumberVar));
+        // System.out.println("Total Number of digits " + thrpro.countDigit(checkNumberVar));
+        // System.out.println("Total Number of odd digits "+thrpro.oddFinder(checkNumberVar));
+        // System.out.println("Total count " + thrpro.CountTotal(checkNumberVar));
 
 
 
@@ -28,6 +28,11 @@ public class allpurpose {
         //  bittodecimal obj = new bittodecimal();
         //  obj.bitToDec("1100");
         //  bittodecimal.bitToDec("1111111");
+
+// ramanujans taxi num
+
+        ramanujansTaxiNum num = new ramanujansTaxiNum();
+        num.taxiproblem();
 
 
 
