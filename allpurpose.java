@@ -31,10 +31,12 @@ public class allpurpose {
 
 // ramanujans taxi num
 
-        ramanujansTaxiNum num = new ramanujansTaxiNum();
-        num.taxiproblem();
+//        ramanujansTaxiNum num = new ramanujansTaxiNum();
+        // num.taxiproblem();
 
-
+// paycheck
+        payCheck paycheck = new payCheck();
+        paycheck.createPayCheck();
 
 
     }
